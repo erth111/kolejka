@@ -22,6 +22,7 @@ else
         echo "looking for config file in default location..."
         if [ -e $def_conf_path ]; then
                 echo "using default config path, file exists"
+		source $def_conf_path
         else
                 echo "no config found in $def_conf_path, exiting..."
                 exit 1
