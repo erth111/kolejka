@@ -8,7 +8,7 @@
 Summary: Gets queue lengths from city council website and saves as csv
 Name: kolejka 
 Version: 1.0
-Release: 1
+Release: 2 
 License: GPL+
 Group: Development/Tools
 SOURCE0 : %{name}-%{version}.tar.gz
@@ -43,5 +43,5 @@ rm -rf %{buildroot}
 %{_sharedstatedir}/%{name}/%{version}/*
 
 %changelog
-* Thu Apr 24 2016 erth111 <erth111@gmail.com> 1.0
-- First Build
+* Thu Apr 24 2016 erth111 <erth111@gmail.com> 
+- Second build 
